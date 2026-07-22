@@ -45,10 +45,10 @@ name="index"       path="/"
 
 | Page file | Kind | Result |
 |---|---|---|
-| `pages/a/[[...slug]].vue` | optional catch-all | ❌ stray `]` |
-| `pages/b/[id]/[[...slug]].vue` | optional catch-all under a dynamic segment | ❌ stray `]` |
-| `pages/c/[...slug].vue` | **non-optional** catch-all | ✅ correct |
-| `pages/index.vue` | static | ✅ correct |
+| `app/pages/a/[[...slug]].vue` | optional catch-all | ❌ stray `]` |
+| `app/pages/b/[id]/[[...slug]].vue` | optional catch-all under a dynamic segment | ❌ stray `]` |
+| `app/pages/c/[...slug].vue` | **non-optional** catch-all | ✅ correct |
+| `app/pages/index.vue` | static | ✅ correct |
 
 ## Runtime impact
 
