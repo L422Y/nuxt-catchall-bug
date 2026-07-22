@@ -21,8 +21,8 @@ Reproduced identically on:
 ## Reproduce
 
 ```bash
-pnpm install
-pnpm run routes   # = nuxt prepare; a pages:extend hook dumps the generated routes
+npm install
+npm run routes   # = nuxt prepare; a pages:extend hook dumps the generated routes
 ```
 
 ### Expected
