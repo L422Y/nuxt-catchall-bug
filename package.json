@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-catchall-bug",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "postinstall": "nuxt prepare",
+    "routes": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^4.5.0"
+  }
+}
